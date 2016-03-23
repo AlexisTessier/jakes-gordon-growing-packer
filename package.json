@@ -1,0 +1,33 @@
+{
+  "name": "jakes-gordon-growing-packer",
+  "version": "0.0.1",
+  "description": "A javascript binary tree based algorithm for 2d bin-packing",
+  "main": "index.js",
+  "scripts": {
+    "test": "dependency-check package.json",
+    "build": "gulp",
+    "prepublish": "npm run build & npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisTessier/jakes-gordon-growing-packer.git"
+  },
+  "keywords": [
+    "spritesheet",
+    "2d",
+    "packing",
+    "algorithm"
+  ],
+  "author": "Alexis Tessier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexisTessier/jakes-gordon-growing-packer/issues"
+  },
+  "homepage": "https://github.com/AlexisTessier/jakes-gordon-growing-packer#readme",
+  "devDependencies": {
+    "@alexistessier/gulp-workflow-common-task": "^2.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
