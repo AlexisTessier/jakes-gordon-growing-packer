@@ -4,8 +4,8 @@ jakes-gordon-growing-packer
 
 ![Project Status : work in progress](https://img.shields.io/badge/Project%20status-work%20in%20progress-lightgrey.svg)
 
-[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/AlexisTessier/jakes-gordon-growing-packer#readme)
-[![npm version](https://badge.fury.io/js/%40alexistessier%2Fjakes-gordon-growing-packer.svg)](https://badge.fury.io/js/%40alexistessier%2Fjakes-gordon-growing-packer)
+[![version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/AlexisTessier/jakes-gordon-growing-packer#readme)
+[![npm version](https://badge.fury.io/js/jakes-gordon-growing-packer.svg)](https://badge.fury.io/js/jakes-gordon-growing-packer)
 
 [![Dependency Status](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer.svg)](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer)
 [![devDependency Status](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer/dev-status.svg)](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer#info=devDependencies)
