@@ -135,8 +135,8 @@ Valid sort methods
 	}
 	```
 
-Credentials
------------
+Credits
+-------
 
 The packing algorithm is from [here](https://github.com/jakesgordon/bin-packing)
 
