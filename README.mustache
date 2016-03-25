@@ -38,14 +38,13 @@ var GrowingPacker = require('{{& package.name}}')
 var packer = new GrowingPacker({
 	//sortMethod: a sort method or a valid sort method name, default to maxside
 
-	/*
 	blocks: [
 		{ w: 100, h: 100 },
 		{ w: 100, h: 100 },
 		{ w:  80, h:  80 },
 		{ w:  80, h:  80 }
 	]
-	blocks is optional and can be passed directly to the pack method */
+	/* blocks is optional and can be passed directly to the pack method */
 });
 
 var pack = packer.pack();

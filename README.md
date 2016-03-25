@@ -4,7 +4,7 @@ jakes-gordon-growing-packer
 
 ![Project Status : work in progress](https://img.shields.io/badge/Project%20status-work%20in%20progress-lightgrey.svg)
 
-[![version](https://img.shields.io/badge/version-0.0.6-blue.svg)](https://github.com/AlexisTessier/jakes-gordon-growing-packer#readme)
+[![version](https://img.shields.io/badge/version-0.0.7-blue.svg)](https://github.com/AlexisTessier/jakes-gordon-growing-packer#readme)
 [![npm version](https://badge.fury.io/js/jakes-gordon-growing-packer.svg)](https://badge.fury.io/js/jakes-gordon-growing-packer)
 
 [![Dependency Status](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer.svg)](https://david-dm.org/AlexisTessier/jakes-gordon-growing-packer)
@@ -38,14 +38,13 @@ var GrowingPacker = require('jakes-gordon-growing-packer')
 var packer = new GrowingPacker({
 	//sortMethod: a sort method or a valid sort method name, default to maxside
 
-	/*
 	blocks: [
 		{ w: 100, h: 100 },
 		{ w: 100, h: 100 },
 		{ w:  80, h:  80 },
 		{ w:  80, h:  80 }
 	]
-	blocks is optional and can be passed directly to the pack method */
+	/* blocks is optional and can be passed directly to the pack method */
 });
 
 var pack = packer.pack();
