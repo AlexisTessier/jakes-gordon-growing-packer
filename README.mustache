@@ -63,7 +63,7 @@ var pack = packer.pack([
 
 console.log(pack.width, pack.height);
 
-var rectangles = packer.rectangles();
+var rectangles = pack.rectangles(); //note that the rectangles method modify your original blocks array
 	
 for(var i = 0, imax = rectangles.length ; i < imax ; i++) {
 	var rect = rectangles[i];

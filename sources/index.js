@@ -71,12 +71,15 @@ export default class GrowingPacker {
 
 		return {
 			blocks,
+			rectangles: () => {
+				return this.rectangles(blocks);
+			},
 			width: this.width,
 			height: this.height
 		};
 	}
 	
-	get rectangles(){
+	rectangles(blocks = this.blocks){
 		forEach(blocks, block => {
 			let fit = block.fit;
 
